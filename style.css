@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Align children in a column */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    min-height: 100vh; /* Make sure the container takes at least the full viewport height */
+}
+
+select {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#semesters {
+    text-align: center;
+}
+
+#semesters select {
+    margin-right: 10px;
+}
