@@ -12,8 +12,12 @@ body {
 }
 
 .header{
-    margin-bottom: 20px;
-    font-size: 00px;
+    margin-bottom: 10px;
+}
+
+.header > h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
     font-weight: bold;
 }
 main {
@@ -24,6 +28,15 @@ main {
     min-height: 100vh; /* Make sure the container takes at least the full viewport height */
 }
 
+.connect{
+    background-color: #f1f1f1;
+}
+
+.connect > h2{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
 
 select {
     padding: 8px;
